@@ -25,3 +25,6 @@ D:\Development\Tutorials\microsoft-tutorials\book-manager\obj\Debug\net6.0\book-
 D:\Development\Tutorials\microsoft-tutorials\book-manager\obj\Debug\net6.0\ref\book-manager.dll
 D:\Development\Tutorials\microsoft-tutorials\book-manager\obj\Debug\net6.0\book-manager.pdb
 D:\Development\Tutorials\microsoft-tutorials\book-manager\obj\Debug\net6.0\book-manager.genruntimeconfig.cache
+D:\Development\Tutorials\microsoft-tutorials\book-manager\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Development\Tutorials\microsoft-tutorials\book-manager\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Development\Tutorials\microsoft-tutorials\book-manager\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
