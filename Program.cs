@@ -5,9 +5,10 @@ using BookManager.Models;
 
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("Books") ?? "Data Source=Books.db";
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddDbContext<BookDb>(options => options.UseInMemoryDatabase("items"));
+builder.Services.AddSqlite<BookDb>(connectionString);
 builder.Services.AddSwaggerGen(c => {
     c.SwaggerDoc("v1", new OpenApiInfo { 
         Title = "Book API", 
